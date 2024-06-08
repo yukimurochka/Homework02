@@ -1,4 +1,8 @@
 .select {
+    min-width: 150px;
+    font-size: 18px;
+    padding: 2px 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .select:focus {
