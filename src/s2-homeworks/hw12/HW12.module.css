@@ -1,16 +1,19 @@
 [data-theme='1'] {
     --color: #000000;
     --background: #FFFFFF;
+    --select-background: #F0F0F0;
 }
 
 [data-theme='2'] {
     --color: #000000;
     --background: #DDEEFF;
+    --select-background: #B0C4DE;
 }
 
 [data-theme='3'] {
     --color: #FFFFFF;
     --background: #212A34;
+    --select-background: #2C3A4B;
 }
 
 html {
@@ -19,5 +22,9 @@ html {
 }
 
 .select {
-
+    background-color: var(--select-background);
+    color: var(--color);
+    border: 1px solid var(--color);
+    padding: 8px;
+    border-radius: 4px;
 }
